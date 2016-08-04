@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_arrow_right.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_arrow_down.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_arrow_down.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_target.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_cursor.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_arrow_right.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_target.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ambilwarna_cursor.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-ldpi\\ambilwarna_cursor.png"
+    }
+]

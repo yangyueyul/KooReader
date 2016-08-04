@@ -901,13 +901,6 @@ public abstract class ZLTextView extends ZLTextViewBase {
     }
 
 
-    public final synchronized void gotoPageByPec(int pec) {
-        if (myModel == null || myModel.getParagraphsNumber() == 0) {
-            return;
-        }
-
-        gotoPositionByEnd(pec, 0, 0);
-    }
 
 
     public void gotoHome() {
@@ -1499,6 +1492,15 @@ public abstract class ZLTextView extends ZLTextViewBase {
         }
     }
 
+    /**
+     *  gotoPositionByEnd(pec, 0, 0); 这个里三个参数是,
+     *  (第几段,第几个单词,第几个字母),知道了上一章开始的索引位置
+     *  (在本书中的第几段),调用它就可以跳转了
+
+     * @param paragraphIndex
+     * @param wordIndex
+     * @param charIndex
+     */
     private final synchronized void gotoPositionByEnd(int paragraphIndex, int wordIndex, int charIndex) {
         if (myModel != null && myModel.getParagraphsNumber() > 0) {
             myCurrentPage.moveEndCursor(paragraphIndex, wordIndex, charIndex);
@@ -1515,6 +1517,14 @@ public abstract class ZLTextView extends ZLTextViewBase {
         myPreviousPage.reset();
         myNextPage.reset();
         preparePaintInfo(myCurrentPage);
+    }
+
+    public final synchronized void gotoPageByPec(int pec) {
+        if (myModel == null || myModel.getParagraphsNumber() == 0) { // fixbugs
+            return;
+        }
+//        gotoPositionByStart(pec, 0, 0);
+        gotoPositionByEnd(pec, 0, 0);
     }
 
     private synchronized void preparePaintInfo(ZLTextPage page) {

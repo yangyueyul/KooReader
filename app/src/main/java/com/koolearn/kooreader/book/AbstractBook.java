@@ -11,21 +11,24 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * 抽象book
+ */
 public abstract class AbstractBook extends TitledEntity<AbstractBook> {
 	public static final String READ_LABEL = "read";
 
 	protected volatile long myId;
 
-	protected volatile String myEncoding;
-	protected volatile String myLanguage;
-	protected volatile List<Author> myAuthors;
-	protected volatile List<Tag> myTags;
-	protected volatile List<Label> myLabels;
-	protected volatile SeriesInfo mySeriesInfo;
-	protected volatile List<UID> myUids;
-	protected volatile RationalNumber myProgress;
+	protected volatile String myEncoding;  //编码
+	protected volatile String myLanguage;  //语言
+	protected volatile List<Author> myAuthors;  //作者
+	protected volatile List<Tag> myTags;  //标记
+	protected volatile List<Label> myLabels;  //标签
+	protected volatile SeriesInfo mySeriesInfo;  //
+	protected volatile List<UID> myUids;  //UID
+	protected volatile RationalNumber myProgress;  //阅读进度
 
-	public volatile boolean HasBookmark;
+	public volatile boolean HasBookmark;  //是否要标注
 
 	protected enum SaveState {
 		Saved,

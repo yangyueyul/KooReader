@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\bookmark.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\mipmap-xhdpi\\bookmark.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\note.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\mipmap-xhdpi\\note.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\bookmark.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\mipmap-xhdpi\\bookmark.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\note.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\mipmap-xhdpi\\note.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    }
+]

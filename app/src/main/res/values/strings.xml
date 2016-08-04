@@ -6,7 +6,7 @@
     <string name="local_book">本地图书</string>
     <string name="network_book">在线图书</string>
     <string name="book_note">我的笔记</string>
-    <string name="book_mark">我的书签</string>
+
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
 
@@ -17,4 +17,15 @@
     <string name="input_hint">请输入关键字</string>
     <string name="input_prefill"></string>
     <string name="default_search_keyword">哈利</string>
+
+   <!-- &lt;!&ndash;需要进行国际化的数据&ndash;&gt;
+    <string name="pre_chapter">上一章</string>
+    <string name="next_chapter">下一章</string>
+    <string name="book_directory">目录</string>
+    <string name="book_setting">设置</string>
+    <string name="book_emulate">仿真</string>
+    <string name="book_cover">覆盖</string>
+    <string name="book_slide">滑动</string>
+    <string name="book_no">无</string>
+    <string name="book_mark">我的书签</string>-->
 </resources>

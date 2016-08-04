@@ -1,5 +1,7 @@
 package com.koolearn.kooreader.kooreader;
 
+import android.util.Log;
+
 import com.koolearn.klibrary.core.application.ZLApplication;
 import com.koolearn.klibrary.core.application.ZLKeyBindings;
 import com.koolearn.klibrary.core.drm.EncryptionMethod;
@@ -32,6 +34,8 @@ import com.koolearn.kooreader.util.AutoTextSnippet;
 import com.koolearn.kooreader.util.TextSnippet;
 import com.kooreader.util.ComparisonUtil;
 
+import java.text.BreakIterator;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.LinkedList;
@@ -321,6 +325,7 @@ public final class KooReaderApp extends ZLApplication {
 
     /**
      * 返回到最近阅读
+     *
      * @return
      */
     public boolean jumpBack() {
@@ -389,6 +394,22 @@ public final class KooReaderApp extends ZLApplication {
     public void onWindowClosing() {
         storePosition();
     }
+
+
+   /* */
+
+    /**
+     * 在getPreTOCElement里通过for循环对比 当前索引 和 每章的索引 ,
+     * 当大于(小于)当前值就得到了 上一章(下一章)的 TOCTree(索引位置)
+     *
+     * @return
+     *//*
+    public TOCTree getPreTOCElement() {
+        for (int i = Model.TOCTree.getSize() - 1; i >= 0; i--) {
+if (Model.TOCTree.)
+        }
+        return Model.TOCTree;
+    }*/
 
     private class PositionSaver implements Runnable { // 进度保存
         private final Book myBook;
@@ -552,6 +573,88 @@ public final class KooReaderApp extends ZLApplication {
         );
     }
 
+    /**
+     * 获取到下一章节的开始
+     * 在getPreTOCElement里通过for循环对比 当前索引 和 每章的索引 ,
+     * 当大于(小于)当前值就得到了 上一章(下一章)的 TOCTree(索引位置)
+     *
+     * @return
+     */
+    public TOCTree getNextTOCElement() {
+        final ZLTextWordCursor cursor = BookTextView.getStartCursor();
+        if (Model == null || cursor == null) {
+            return null;
+        }
+
+
+        int index = cursor.getParagraphIndex();  //当前章节段落所在索引
+        if (cursor.isEndOfParagraph()) {
+            ++index;
+        }
+        TOCTree treeToSelect = null;
+        for (TOCTree tree : Model.TOCTree) {
+            final TOCTree.Reference reference = tree.getReference();
+            if (reference == null) {
+                continue;
+            }
+            Log.d("KooReaderApp", "reference.ParagraphIndex:" + reference.ParagraphIndex);
+            Log.d("KooReaderApp", "index:" + index);
+            Log.d("KooReaderApp", "tree.getReference().ParagraphIndex:" + tree.getReference().ParagraphIndex);
+            // Log.d("NavigationPopup", "tocElement.getReference().Model.getParagraphsNumber():" + tree.getReference().Model.getParagraphsNumber());
+            if (reference.ParagraphIndex > index) {
+                treeToSelect = tree;
+                break;
+            }
+
+        }
+        return treeToSelect;
+    }
+
+    /**
+     * 获取到上一章节的开始
+     * 在getPreTOCElement里通过for循环对比 当前索引 和 每章的索引 ,
+     * 当大于(小于)当前值就得到了 上一章(下一章)的 TOCTree(索引位置)
+     *
+     * @return
+     */
+    public TOCTree getPrepTOCElement() {
+        final ZLTextWordCursor cursor = BookTextView.getStartCursor();
+        if (Model == null || cursor == null) {
+            return null;
+        }
+
+        int index = cursor.getParagraphIndex();
+        if (cursor.isEndOfParagraph()) {
+            ++index;
+        }
+        TOCTree treeToSelect = null;
+        ArrayList<TOCTree> arrayList =new ArrayList<>();
+        for (TOCTree tree : Model.TOCTree) {
+            final TOCTree.Reference reference = tree.getReference();
+            if (reference == null) {
+                continue;
+            }
+            Log.d("KooReaderApp", "reference.ParagraphIndex:" + reference.ParagraphIndex);
+            Log.d("KooReaderApp", "index:" + index);
+            Log.d("KooReaderApp", "tree.getReference().ParagraphIndex:" + tree.getReference().ParagraphIndex);
+            arrayList.add(tree);
+            if (reference.ParagraphIndex < index) {
+                continue;
+            }
+            break;
+        }
+        if (arrayList.size()>=2){
+            treeToSelect = arrayList.get(arrayList.size()-2);
+        }
+        return treeToSelect;
+    }
+
+
+    /**
+     * 获取到当前章节
+     *
+     * @return
+     */
     public TOCTree getCurrentTOCElement() {
         final ZLTextWordCursor cursor = BookTextView.getStartCursor();
         if (Model == null || cursor == null) {

@@ -5,18 +5,22 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewConfiguration;
+import android.widget.Toast;
 
 import com.koolearn.android.kooreader.KooReader;
 import com.koolearn.android.kooreader.KooReaderMainActivity;
+import com.koolearn.android.util.UIUtil;
 import com.koolearn.klibrary.core.application.ZLApplication;
 import com.koolearn.klibrary.core.application.ZLKeyBindings;
 import com.koolearn.klibrary.core.util.SystemInfo;
 import com.koolearn.klibrary.core.view.ZLView;
 import com.koolearn.klibrary.core.view.ZLViewWidget;
+import com.koolearn.klibrary.ui.android.library.ZLAndroidLibrary;
 import com.koolearn.klibrary.ui.android.view.animation.AnimationProvider;
 import com.koolearn.klibrary.ui.android.view.animation.CurlAnimationProvider;
 import com.koolearn.klibrary.ui.android.view.animation.CurlPageProviderImpl;
@@ -24,6 +28,7 @@ import com.koolearn.klibrary.ui.android.view.animation.NoneAnimationProvider;
 import com.koolearn.klibrary.ui.android.view.animation.ShiftAnimationProvider;
 import com.koolearn.klibrary.ui.android.view.animation.SlideAnimationProvider;
 import com.koolearn.kooreader.Paths;
+import com.koolearn.kooreader.book.Book;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -123,10 +128,10 @@ public class ZLAndroidWidget extends View implements ZLViewWidget, View.OnLongCl
         return myAnimationProvider;
     }
 
-    public boolean isCurlAnimation(){
-        if(getAnimationProvider() instanceof CurlPageProviderImpl){
+    public boolean isCurlAnimation() {
+        if (getAnimationProvider() instanceof CurlPageProviderImpl) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
@@ -186,9 +191,18 @@ public class ZLAndroidWidget extends View implements ZLViewWidget, View.OnLongCl
     public void scrollManuallyTo(int x, int y) {
         final ZLView view = ZLApplication.Instance().getCurrentView();
         final AnimationProvider animator = getAnimationProvider();
+       /* if (x < y) {
+            Log.d("ZLAndroidWidget", "next");
+        } else
+            Log.d("ZLAndroidWidget", "previous");*/
         if (view.canScroll(animator.getPageToScrollTo(x, y))) { // 判断是否可以翻(是否有上/下一页)
             animator.scrollTo(x, y); // 一直在改变Mode的状态
             postInvalidate();
+        } else {
+            // /storage/emulated/0/Android/data/com.koolearn.klibrary.ui.android/cache/悟空传.epub
+        //    String path = "//storage/emulated/0/Android/data/com.koolearn.klibrary.ui.android/cache/悟空传.epub";
+//            KooReader.openBookActivity(UIUtil.getContext(),new Book(2,path,"悟空传","utf-8",""),null);
+           // Toast.makeText(getContext(), "已经是最后一页了", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -256,7 +270,7 @@ public class ZLAndroidWidget extends View implements ZLViewWidget, View.OnLongCl
     private void onDrawStatic(final Canvas canvas) {  // 滑动完后调用静态时调用
         /**
          * 从myBitmapManager获取一张Bitmap,画到画布上
-         * myBitmapManager.getBitmap(ZLView.PageIndex.current)是自己创建的canvas,将该view的canva和其连起来才可以显示在view上
+         * myBitmapManager.getBitmap(ZLView.PageIndex.current)是自己创建的canvas,将该view的canvas和其连起来才可以显示在view上
          */
         canvas.drawBitmap(myBitmapManager.getBitmap(ZLView.PageIndex.current), 0, 0, myPaint);
         post(new Runnable() { // 将runnable放到消息队列中
@@ -409,7 +423,7 @@ public class ZLAndroidWidget extends View implements ZLViewWidget, View.OnLongCl
                     }
                     if (!myPendingPress) {
                         // 开始切换 surfaceview
-                        if(isCurlAnimation()){
+                        if (isCurlAnimation()) {
                             ZLApplication.Instance().getMyWindow().hideViewWidget(true);
                             return true;
                         }
@@ -566,5 +580,10 @@ public class ZLAndroidWidget extends View implements ZLViewWidget, View.OnLongCl
         final float level = ((KooReaderMainActivity) context).getScreenBrightnessSystem();
         // level = .01f + (percent - 25) * .99f / 75;
         return 25 + (int) ((level - .01f) * 75 / .99f);
+    }
+
+    @Override
+    public void jumpRepaint() {
+
     }
 }

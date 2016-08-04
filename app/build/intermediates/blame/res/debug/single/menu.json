@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "E:\\Koo\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Koo\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\menu\\main.xml"
+    }
+]

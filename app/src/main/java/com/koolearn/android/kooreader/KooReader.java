@@ -49,6 +49,12 @@ import java.util.HashMap;
 public final class KooReader extends KooReaderMainActivity implements ZLApplicationWindow {
     public static final int RESULT_DO_NOTHING = RESULT_FIRST_USER;
 
+    /**
+     * 打开书
+     * @param context  上下文
+     * @param book  需要打开的book
+     * @param bookmark  是否根据标记打开的
+     */
     public static void openBookActivity(Context context, Book book, Bookmark bookmark) {
         final Intent intent = new Intent(context, KooReader.class);
         intent.setAction(KooReaderIntents.Action.VIEW);
@@ -160,18 +166,22 @@ public final class KooReader extends KooReaderMainActivity implements ZLApplicat
         if (myKooReaderApp.getPopupById(NavigationPopup.ID) == null) {
             new NavigationPopup(myKooReaderApp);
         }
+        //在这个地方进行创建之前fbreader的一些选择menu  进行了定制
         if (myKooReaderApp.getPopupById(SettingPopup.ID) == null) {
             new SettingPopup(myKooReaderApp);
         }
+        //长按文章进行    分享、复制、翻译、发送等popwindow
         if (myKooReaderApp.getPopupById(SelectionPopup.ID) == null) {
             new SelectionPopup(myKooReaderApp);
         }
 
+
+        //添加底部选择popwindow
         myKooReaderApp.addAction(ActionCode.SHOW_NAVIGATION, new ShowNavigationAction(this, myKooReaderApp)); //y 页面跳转
+        //
         myKooReaderApp.addAction(ActionCode.PROCESS_HYPERLINK, new ProcessHyperlinkAction(this, myKooReaderApp)); //y 打开超链接、图片等
         myKooReaderApp.addAction(ActionCode.OPEN_VIDEO, new OpenVideoAction(this, myKooReaderApp));
         myKooReaderApp.addAction(ActionCode.HIDE_TOAST, new HideToastAction(this, myKooReaderApp));
-
         myKooReaderApp.addAction(ActionCode.SELECTION_BOOKMARK, new SelectionBookmarkAction(this, myKooReaderApp));
         myKooReaderApp.addAction(ActionCode.SELECTION_SHOW_PANEL, new SelectionShowPanelAction(this, myKooReaderApp));
         myKooReaderApp.addAction(ActionCode.SELECTION_HIDE_PANEL, new SelectionHidePanelAction(this, myKooReaderApp));

@@ -18,7 +18,7 @@ final class ZLTextPage {
 
     private int myColumnWidth;
     private int myHeight;
-	private boolean myTwoColumnView;
+    private boolean myTwoColumnView;
 
     void setSize(int columnWidth, int height, boolean twoColumnView, boolean keepEndNotStart) {
         if (myColumnWidth == columnWidth && myHeight == height && myColumnWidth == columnWidth) {
@@ -26,7 +26,7 @@ final class ZLTextPage {
         }
         myColumnWidth = columnWidth;
         myHeight = height;
-		myTwoColumnView = twoColumnView;
+        myTwoColumnView = twoColumnView;
 
         if (PaintState != PaintStateEnum.NOTHING_TO_PAINT) {
             LineInfos.clear();
@@ -57,6 +57,15 @@ final class ZLTextPage {
         PaintState = PaintStateEnum.NOTHING_TO_PAINT;
     }
 
+    /**
+     * 负责定位到指定的段落
+     * 定位的过程主要是维护ZLTextPage类中的StartCursor属性指向的ZLTextWordCursor类。
+     * ZLTextWordCursor类中的三个属性myParagraphCursor、myElementIndex、myCharIndex结合
+     * 起来就完成来了定位到指定段落的流程。
+     * 这三个属性中，myParagraphCursor属性指向的就是代表指定段落的ZLTextParagraphCursor类
+     *
+     * @param cursor
+     */
     void moveStartCursor(ZLTextParagraphCursor cursor) {
         LogUtil.i13("cursor:" + cursor); // ZLTextParagraphCursor [0 (0..5)]] myElements.size() = 5
         StartCursor.setCursor(cursor);
@@ -112,9 +121,9 @@ final class ZLTextPage {
         return myHeight;
     }
 
-	boolean twoColumnView() {
-		return myTwoColumnView;
-	}
+    boolean twoColumnView() {
+        return myTwoColumnView;
+    }
 
     boolean isEmptyPage() {
         for (ZLTextLineInfo info : LineInfos) {

@@ -23,6 +23,7 @@ import com.koolearn.android.kooreader.fragment.NetWorkBooksFragment;
 import com.koolearn.android.kooreader.libraryService.BookCollectionShadow;
 import com.koolearn.klibrary.ui.android.R;
 import com.koolearn.kooreader.Paths;
+import com.koolearn.kooreader.book.Book;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -291,7 +292,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void onOpenBookEvent(final OpenBookEvent event) {
         myCollection.bindToService(this, new Runnable() {
             public void run() {
-                com.koolearn.kooreader.book.Book book = myCollection.getBookByFile(event.bookPath);
+                Book book = myCollection.getBookByFile(event.bookPath);
                 if (book != null) {
                     openBook(book);
                 } else {
@@ -301,7 +302,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         });
     }
 
-    private void openBook(com.koolearn.kooreader.book.Book data) {
+    private void openBook(Book data) {
         KooReader.openBookActivity(this, data, null);
         overridePendingTransition(R.anim.tran_fade_in, R.anim.tran_fade_out);
     }
@@ -310,7 +311,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void onAddBookEvent(final AddBookEvent event) {
         myCollection.bindToService(this, new Runnable() {
                     public void run() {
-                        com.koolearn.kooreader.book.Book book = myCollection.getBookByFile(event.bookPath);
+                        Book book = myCollection.getBookByFile(event.bookPath);
                         if (book != null) {
                             myCollection.saveBook(book); // 保存书籍
                             myCollection.addToRecentlyOpened(book); // 保存书籍至最近阅读的数据库

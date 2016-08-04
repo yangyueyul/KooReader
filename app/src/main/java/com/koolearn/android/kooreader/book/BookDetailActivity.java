@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
@@ -80,8 +81,10 @@ public class BookDetailActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         final String filePath = getExternalCacheDirPath() + "/" + mBook.getTitle() + ".epub";
+        Log.d("BookDetailActivity", filePath);
         File fileDir = new File(filePath);
         if (fileDir.exists()) {
+
             mBtnDownload.setProgress(100);
         }
 

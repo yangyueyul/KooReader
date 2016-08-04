@@ -27,6 +27,9 @@ import com.kooreader.util.ComparisonUtil;
 import java.util.Comparator;
 import java.util.UUID;
 
+/**
+ * 标记
+ */
 public final class Bookmark extends ZLTextFixedPosition {
 	public enum DateType {
 		Creation,
@@ -39,8 +42,8 @@ public final class Bookmark extends ZLTextFixedPosition {
 	public final String Uid;
 	private String myVersionUid;
 
-	public final long BookId;
-	public final String BookTitle;
+	public final long BookId;  //bookId
+	public final String BookTitle; //bookTitle
 	private String myText;
 	private String myOriginalText;
 
