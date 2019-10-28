@@ -129,6 +129,9 @@ public class BookMarksFragment extends Fragment implements IBookCollection.Liste
 
     private final Object myBookmarksLock = new Object();
 
+    /**
+     * 加载所有的笔记
+     */
     private void loadBookmarks() {
         new Thread(new Runnable() {
             public void run() {
@@ -153,6 +156,10 @@ public class BookMarksFragment extends Fragment implements IBookCollection.Liste
         }).start();
     }
 
+    /**
+     * 更新笔记
+     * @param book
+     */
     private void updateBookmarks(final Book book) {
         new Thread(new Runnable() {
             public void run() {

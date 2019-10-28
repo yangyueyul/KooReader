@@ -1,0 +1,1010 @@
+[
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_redo.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_redo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_save.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_save.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_grey.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bg_grey.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_exit.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_exit.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_zip.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_library_zip.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\selection.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\selection.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_local_book.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_local_book.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error_outline_black.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_error_outline_black.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ep.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ep.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_share.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_share.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_content_copy_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_content_copy_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_arrow_down.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_vine_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bg_vine_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_net_book.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_net_book.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_permission_denied.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_library_permission_denied.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\er.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\er.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bg_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_redline.9.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\page_redline.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_undo.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_undo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_refresh.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_refresh.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_zip.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_library_zip.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_shadow.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\book_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_bookmark_outline_pressed.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_bookmark_outline_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_cursor.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_edit.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_edit.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_save.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_save.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_pressed.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_close_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\en.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\en.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_header_logo.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bookshelf_header_logo.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ew.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ew.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_share.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_share.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\light.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_whiteline.9.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\page_whiteline.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_header_bg.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bookshelf_header_bg.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\light.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bg_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_net_book.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_net_book.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_books.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_library_books.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_below_shallow_bg.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf_below_shallow_bg.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_small.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\light_small.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_permission_denied.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_library_permission_denied.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_refresh.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_refresh.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_share_pressed.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_share_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_plus1.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_plus1.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_books.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_library_books.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_edit.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_edit.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_below_bg.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bookshelf_below_bg.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_vine_grey.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bg_vine_grey.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_info.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_info.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_plus.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_plus.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_large_pressed.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_large_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_info.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_info.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_book.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_library_book.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bf_footer.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bf_footer.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eo.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\eo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_below_bg.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf_below_bg.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_vine_grey.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bg_vine_grey.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_small.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\light_small.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\er.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\er.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_vine_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bg_vine_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\es.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\es.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toc.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\toc.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_undo.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_undo.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_folder.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_list_library_folder.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_edit.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_edit.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_book.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_library_book.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_translate_pressed.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_translate_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setting.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\setting.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error_outline_black.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_error_outline_black.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ep.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ep.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\reading__reading_themes_vine_yellow_shadow.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\reading__reading_themes_vine_yellow_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_pre.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\book_pre.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\setting.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\setting.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ev.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ev.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_close_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_content_copy_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_content_copy_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_edit.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_edit.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eo.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\eo.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_share_pressed.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_share_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_green.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bg_green.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error_outline_red.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_error_outline_red.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_cover.jpg",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\book_cover.jpg"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_error_outline_red.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_error_outline_red.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_shadow.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bookshelf_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_redline.9.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\page_redline.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_green.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bg_green.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_grey.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bg_grey.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_shadow.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\light_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_bookmark_outline_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_bookmark_outline_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_info.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_info.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_pre.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\book_pre.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_translate_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_translate_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_translate_pressed.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_translate_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\selection.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\selection.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_plus1.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_plus1.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_bookmark_outline_pressed.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_bookmark_outline_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_redo.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_redo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_layer_center.jpg",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf_layer_center.jpg"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_share.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_share.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_cover.jpg",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\book_cover.jpg"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eq.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\eq.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_booknote.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_booknote.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_content_copy_pressed.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_content_copy_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fonts.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\fonts.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ew.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ew.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_night.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bg_night.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_layer_center.jpg",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bookshelf_layer_center.jpg"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_whitelinedark.9.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\page_whitelinedark.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_exit.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_exit.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\reading__reading_themes_vine_yellow_shadow.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\reading__reading_themes_vine_yellow_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_pressed.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_save.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_save.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_large_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_close_large_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_bookmark.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_bookmark.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\eq.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\eq.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_refresh.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_refresh.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fonts.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\fonts.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_bookmark_outline_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_bookmark_outline_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_local_book.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_local_book.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_undo.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_undo.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\toc.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\toc.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_target.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\en.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\en.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_arrow_right.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\search.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_shadow.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ev.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ev.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_header_bg.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf_header_bg.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_arrow_right.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_arrow_right.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_whiteline.9.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\page_whiteline.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dark.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\dark.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_share_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_share_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_redo.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_redo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\book_shadow.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\book_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_redo.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_redo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_exit.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_exit.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_below_shallow_bg.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\bookshelf_below_shallow_bg.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bf_footer.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bf_footer.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_plus.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_plus.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_content_copy_pressed.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_content_copy_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_share_white.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_share_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_exit.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_exit.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bookshelf_header_logo.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf_header_logo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_target.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_target.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_night.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\bg_night.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_translate_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_translate_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_bookmark.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_bookmark.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\paper.jpg",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\paper.jpg"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_list_library_folder.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_list_library_folder.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_info.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_info.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\light_shadow.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\light_shadow.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dark.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\dark.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_cursor.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_cursor.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_large_white.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_close_large_white.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_light_undo.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_light_undo.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_booknote.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\ic_booknote.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\page_whitelinedark.9.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\page_whitelinedark.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_close_large_pressed.png",
+        "source": "E:\\Koo\\koo\\src\\main\\res\\drawable-xhdpi\\ic_close_large_pressed.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ambilwarna_arrow_down.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.yukuku\\ambilwarna\\2.0.1\\res\\drawable-xhdpi\\ambilwarna_arrow_down.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\paper.jpg",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\paper.jpg"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_save.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_save.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\es.png",
+        "source": "E:\\Koo\\app\\src\\main\\res\\drawable-xhdpi\\es.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_share.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_share.png"
+    },
+    {
+        "merged": "E:\\Koo\\koo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_dark_refresh.png",
+        "source": "E:\\Koo\\koo\\build\\intermediates\\exploded-aar\\com.github.johnpersano\\supertoasts\\1.3.4\\res\\drawable-xhdpi\\icon_dark_refresh.png"
+    },
+    {
+        "merged": "E:\\Koo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\Koo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable-xhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    }
+]

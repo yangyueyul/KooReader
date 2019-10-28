@@ -90,6 +90,11 @@ public abstract class ZLFile implements InputStreamHolder {
         return file;
     }
 
+    /**
+     * 推过url创建文件
+     * @param url
+     * @return
+     */
     public static ZLFile createFileByUrl(String url) {
         if (url == null || !url.startsWith("file://")) {
             return null;
@@ -97,6 +102,11 @@ public abstract class ZLFile implements InputStreamHolder {
         return createFileByPath(url.substring("file://".length()));
     }
 
+    /**
+     * 通过路径创建文件
+     * @param path
+     * @return
+     */
     public static ZLFile createFileByPath(String path) {
         if (path == null) {
             return null;

@@ -73,6 +73,9 @@ final class SQLiteBooksDatabase extends BooksDatabase {
         }
     }
 
+    /**
+     * 表的操作
+     */
     private void migrate() {
         final int version = myDatabase.getVersion(); // 第一次安装为0
         final int currentVersion = 40;
@@ -1280,6 +1283,9 @@ final class SQLiteBooksDatabase extends BooksDatabase {
         myDatabase.endTransaction();
     }
 
+    /**
+     * 创建表
+     */
     private void createTables() {
         myDatabase.execSQL(
                 "CREATE TABLE IF NOT EXISTS Books(" +

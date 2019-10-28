@@ -6,6 +6,7 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Message;
 
+import com.koolearn.android.kooreader.KooReaderApplication;
 import com.koolearn.klibrary.core.application.ZLApplication;
 import com.koolearn.klibrary.core.resources.ZLResource;
 import com.kooreader.util.Pair;
@@ -144,5 +145,9 @@ public abstract class UIUtil {
                 setMessage(myProgress, myMessage);
             }
         };
+    }
+
+    public static Context getContext(){
+        return KooReaderApplication.getContext();
     }
 }

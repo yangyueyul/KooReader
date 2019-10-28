@@ -83,6 +83,11 @@ final class SettingPopup extends ZLApplication.PopupPanel implements View.OnClic
         }
     }
 
+    /**
+     * 创建panel
+     * @param activity
+     * @param root
+     */
     private void createPanel(KooReader activity, RelativeLayout root) {
         if (myWindow != null && activity == myWindow.getContext()) {
             return;
@@ -148,6 +153,9 @@ final class SettingPopup extends ZLApplication.PopupPanel implements View.OnClic
         selectePurItem(); //y 当前翻页方式
         updateAlignment(); //y 当前对齐方式
 
+        /**
+         * 屏幕亮度
+         */
         slider.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             public void onStartTrackingTouch(SeekBar seekBar) {
                 myIsBrightnessAdjustmentInProgress = true;
@@ -170,14 +178,23 @@ final class SettingPopup extends ZLApplication.PopupPanel implements View.OnClic
         });
     }
 
+    /**
+     * 字体大小
+     */
     public void updateFontSize() {
         tvFontSize.setText(integerRangeOption.getValue() + "");
     }
 
+    /**
+     * 行间距
+     */
     public void updateLineSpaceSize() {
         tvLineSpaceSize.setText(myKooReader.ViewOptions.getTextStyleCollection().getBaseStyle().LineSpaceOption.getValue() + "");
     }
 
+    /**
+     * 对齐方式
+     */
     public void updateAlignment() {
         int style = myKooReader.ViewOptions.getTextStyleCollection().getBaseStyle().AlignmentOption.getValue();
         switch (style) {
@@ -312,18 +329,29 @@ final class SettingPopup extends ZLApplication.PopupPanel implements View.OnClic
         }
     }
 
+    /**
+     * 设置居中样式
+     * @param aligStyle
+     */
     private void setAlign(final int aligStyle) {
         myKooReader.ViewOptions.getTextStyleCollection().getBaseStyle().AlignmentOption.setValue(aligStyle);
         myKooReader.getViewWidget().reset();
         myKooReader.getViewWidget().repaint();
     }
 
+    /**
+     * 设置壁纸
+     * @param wallpaper
+     */
     private void setWallpaper(final String wallpaper) {
         myKooReader.ViewOptions.getColorProfile().WallpaperOption.setValue(wallpaper);
         myKooReader.getViewWidget().reset();
         myKooReader.getViewWidget().repaint();
     }
 
+    /**
+     *
+     */
     private void clearSelecte() {
         tvPageSimulation.setTextColor(0xFFFFFFFF);
         tvPageSimulation.setBackgroundResource(R.drawable.page_whiteline);
@@ -342,6 +370,9 @@ final class SettingPopup extends ZLApplication.PopupPanel implements View.OnClic
         tvAlignCenter.setBackgroundResource(R.drawable.ev);
     }
 
+    /**
+     * 设置屏幕亮度
+     */
     private void setupLight() {
         final SeekBar slider = (SeekBar) myWindow.findViewById(R.id.light_slider); //y 屏幕亮度 1~100
         slider.setMax(100);
@@ -357,6 +388,9 @@ final class SettingPopup extends ZLApplication.PopupPanel implements View.OnClic
         }
     }
 
+    /**
+     * 翻页效果
+     */
     private void selectePurItem() {
         switch (myKooReader.PageTurningOptions.Animation.getValue().toString()) {
             case "curl":

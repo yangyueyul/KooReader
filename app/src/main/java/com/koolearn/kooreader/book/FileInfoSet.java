@@ -68,22 +68,34 @@ public final class FileInfoSet {
         }
     }
 
+    /**
+     * 保存
+     */
     public void save() {
         myDatabase.executeAsTransaction(new Runnable() {
             public void run() {
+                //先移除之前的文件
                 for (FileInfo info : myInfosToRemove) {
                     myDatabase.removeFileInfo(info.Id);
                     myInfosByPair.remove(new Pair(info.Name, info.Parent));
                 }
                 myInfosToRemove.clear();
+                //在进行保存
                 for (FileInfo info : myInfosToSave) {
                     myDatabase.saveFileInfo(info);
                 }
+                //清除资源
                 myInfosToSave.clear();
             }
         });
     }
 
+    /**
+     * 检查
+     * @param file
+     * @param processChildren
+     * @return
+     */
     public boolean check(ZLPhysicalFile file, boolean processChildren) {
         if (file == null) {
             return true;

@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.koolearn.android.kooreader.api.KooReaderIntents;
 import com.koolearn.android.kooreader.bookmark.EditBookmarkActivity;
@@ -50,6 +51,9 @@ import java.util.Map;
 
 import yuku.ambilwarna.widget.AmbilWarnaPrefWidgetView;
 
+/**
+ * 点击目录进来的activity
+ */
 public class TOCActivity extends Activity implements IBookCollection.Listener<Book> {
     private TabLayout mTabLayout;
     private ViewPager mViewPager;
@@ -220,10 +224,15 @@ public class TOCActivity extends Activity implements IBookCollection.Listener<Bo
             return view;
         }
 
+        /**
+         * 打开目录调转数据
+         * @param tree  tree
+         */
         void openBookText(TOCTree tree) {
             final TOCTree.Reference reference = tree.getReference();
             if (reference != null) {
                 finish();
+               // Toast.makeText(TOCActivity.this, "点击了我", Toast.LENGTH_SHORT).show();
                 final KooReaderApp kooreader = (KooReaderApp) ZLApplication.Instance();
                 kooreader.addInvisibleBookmark();
                 kooreader.BookTextView.gotoPosition(reference.ParagraphIndex, 0, 0);

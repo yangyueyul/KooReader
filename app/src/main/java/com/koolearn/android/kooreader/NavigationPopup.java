@@ -2,6 +2,7 @@ package com.koolearn.android.kooreader;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
@@ -12,11 +13,13 @@ import android.widget.TextView;
 import com.koolearn.android.kooreader.api.KooReaderIntents;
 import com.koolearn.android.util.OrientationUtil;
 import com.koolearn.klibrary.core.application.ZLApplication;
+import com.koolearn.klibrary.text.model.ZLTextModel;
 import com.koolearn.klibrary.text.view.ZLTextView;
 import com.koolearn.klibrary.text.view.ZLTextWordCursor;
 import com.koolearn.klibrary.ui.android.R;
 import com.koolearn.kooreader.bookmodel.TOCTree;
 import com.koolearn.kooreader.kooreader.KooReaderApp;
+import com.koolearn.kooreader.kooreader.KooView;
 import com.koolearn.kooreader.kooreader.options.ColorProfile;
 
 final class NavigationPopup extends ZLApplication.PopupPanel {
@@ -31,6 +34,7 @@ final class NavigationPopup extends ZLApplication.PopupPanel {
     private ZLTextView.PagePosition pagePosition;
     private TextView light;
     private TextView dark;
+    public ZLTextModel mModel;
 
     NavigationPopup(KooReaderApp kooReader) {
         super(kooReader);
@@ -101,6 +105,18 @@ final class NavigationPopup extends ZLApplication.PopupPanel {
         myKooReader.getViewWidget().repaint();
     }
 
+
+    private void gotoPageByPrah(int prah) {
+        final ZLTextView view = myKooReader.getTextView();
+//        pagePosition = view.pagePosition();
+        view.gotoPageByPec(prah);
+//        myKooReader.clearTextCaches();
+        myKooReader.getViewWidget().reset();
+        myKooReader.getViewWidget().repaint();
+//        myKooReader.showBookTextView();
+    }
+
+
     private void createPanel(KooReader activity, RelativeLayout root) {
         if (myWindow != null && activity == myWindow.getContext()) {
             return;
@@ -130,14 +146,21 @@ final class NavigationPopup extends ZLApplication.PopupPanel {
             }
         });
 
+        /**
+         * 跳转到setting
+         */
         fonts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Application.hideActivePopup();
+                //然后对其上的控件进行遍历添加点击事件
                 ((SettingPopup) myKooReader.getPopupById(SettingPopup.ID)).runNavigation();
             }
         });
 
+        /**
+         * 夜间模式
+         */
         dark.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -149,6 +172,9 @@ final class NavigationPopup extends ZLApplication.PopupPanel {
             }
         });
 
+        /**
+         * 日间模式
+         */
         light.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -160,22 +186,64 @@ final class NavigationPopup extends ZLApplication.PopupPanel {
             }
         });
 
+        /**
+         * 上一章节
+         */
         pre_character.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoPage(pagePosition.Current - 30);
+                // TODO: 2016/8/3 这个是一个问题  就是上一章和下一张并没有计算好跳的地方
+                Log.d("NavigationPopup", "pagePosition.Total:" + pagePosition.Total);
+               // gotoPage(pagePosition.Current - 30);
+
+                final TOCTree tocElement = myKooReader.getPrepTOCElement();
+                //   Log.d("NavigationPopup", "tocElement.getReference().ParagraphIndex:" + tocElement.getReference().ParagraphIndex);
+                if (tocElement != null) {
+                    gotoPageByPrah(tocElement.getReference().ParagraphIndex + 1);
+                    // gotoPageByPrah(tocElement.getReference().ParagraphIndex + 1);
+                }
+
+                //  rlBack.setVisibility(View.VISIBLE);
+//                if (EpubUtil.isLoadAllModel()) {
+                //  final TOCTree tocElement = myKooReader.getPreTOCElement();
+              /*  if (tocElement != null) {
+                    gotoPageByPrah(tocElement.getReference().ParagraphIndex);
+                }*/
+//                } else {
+//                    // 分章加载
+//                    myKooReader.reloadEpubBook(2, 1);
+//                }
+
             }
         });
 
+        /**
+         * 下一章节
+         */
         next_character.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // TODO: 2016/8/3 这个是一个问题  就是上一章和下一张并没有计算好跳的地方
 //                textView.getModel().getParagraphsNumber();
-                gotoPage(pagePosition.Current + 30);
+               /* int index = textView.getModel().getParagraphsNumber();
+                Log.d("NavigationPopup", "index:--->" + index);
+                gotoPage(pagePosition.Current + 30);*/
+                //  rlBack.setVisibility(View.VISIBLE);
+                final TOCTree tocElement = myKooReader.getNextTOCElement();
+             //   Log.d("NavigationPopup", "tocElement.getReference().ParagraphIndex:" + tocElement.getReference().ParagraphIndex);
+                if (tocElement != null) {
+                    gotoPageByPrah(tocElement.getReference().ParagraphIndex + 1);
+                    // gotoPageByPrah(tocElement.getReference().ParagraphIndex + 1);
+                }
+
+
             }
         });
 
 
+        /**
+         * seekbar
+         */
         slider.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             private void gotoPage(int page) {
                 final ZLTextView view = myKooReader.getTextView();
@@ -229,11 +297,13 @@ final class NavigationPopup extends ZLApplication.PopupPanel {
         });
     }
 
+    ZLTextView textView;
+
     private void setupNavigation() {
         final SeekBar slider = (SeekBar) myWindow.findViewById(R.id.navigation_slider);
         final TextView text = (TextView) myWindow.findViewById(R.id.navigation_text);
 
-        final ZLTextView textView = myKooReader.getTextView();
+        textView = myKooReader.getTextView();
         pagePosition = textView.pagePosition();
 
         String progress = textView.pagePositionPec();

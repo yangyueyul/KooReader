@@ -15,6 +15,13 @@ import com.vimgadgets.linebreak.LineBreaker;
 import java.util.*;
 
 public final class ZLTextParagraphCursor {
+
+	/**
+	 * 定位到指定段落需要两个方法互相配合：
+	 * ZLTextParagraphCursor类的cursor方法和ZLTextPage类的moveStartCursor方法
+	 */
+
+	//定位指定段落
 	private static final class Processor {
 		private final ZLTextParagraph myParagraph;
 		private final ExtensionElementManager myExtManager;
@@ -118,6 +125,14 @@ public final class ZLTextParagraphCursor {
 		private static final int NO_SPACE = 0;
 		private static final int SPACE = 1;
 		private static final int NON_BREAKABLE_SPACE = 2;
+
+		/**
+		 * 转化成textEntry
+		 * @param data  段落中的文本信息
+		 * @param offset  开始
+		 * @param length  长度
+         * @param hyperlink  是否高亮
+         */
 		private void processTextEntry(final char[] data, final int offset, final int length, ZLTextHyperlink hyperlink) {
 			if (length != 0) {
 				if (ourBreaks.length < length) {
@@ -188,6 +203,14 @@ public final class ZLTextParagraphCursor {
 			}
 		}
 
+		/**
+		 *
+		 * @param data 段落数据
+		 * @param offset  偏移
+		 * @param len  长度
+		 * @param paragraphOffset  段落偏移
+         * @param hyperlink  高亮
+         */
 		private final void addWord(char[] data, int offset, int len, int paragraphOffset, ZLTextHyperlink hyperlink) {
 			ZLTextWord word = new ZLTextWord(data, offset, len, paragraphOffset);
 			for (int i = myFirstMark; i < myLastMark; ++i) {

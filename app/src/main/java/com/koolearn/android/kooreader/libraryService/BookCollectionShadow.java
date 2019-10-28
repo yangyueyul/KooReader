@@ -37,7 +37,7 @@ import java.util.List;
 public class BookCollectionShadow extends AbstractBookCollection<Book> implements ServiceConnection {
 	private volatile Context myContext;
 	private volatile LibraryInterface myInterface;
-	private final List<Runnable> myOnBindActions = new LinkedList<Runnable>();
+	private final List<Runnable> myOnBindActions = new LinkedList<>();
 
 	private final BroadcastReceiver myReceiver = new BroadcastReceiver() {
 		public void onReceive(Context context, Intent intent) {

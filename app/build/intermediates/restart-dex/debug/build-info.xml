@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="21"
+    density="xhdpi"
+    format="7"
+    timestamp="1501872924109755"
+    token="4183923866419599533" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build timestamp="1474294649481830" >
+        <artifact
+            location="E:\Koo\koo\build\outputs\apk\koo-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="1477961592000445" >
+        <artifact
+            location="E:\Koo\koo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1485773906651647" >
+        <artifact
+            location="E:\Koo\koo\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="E:\Koo\koo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1497211074328674" >
+        <artifact
+            location="E:\Koo\koo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1498731867445388" >
+        <artifact
+            location="E:\Koo\koo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+        <artifact
+            location="E:\Koo\koo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_1\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1499506374601054" >
+        <artifact
+            location="E:\Koo\koo\build\intermediates\transforms\dex\debug\folders\1000\5\slice_8\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="1501872924109755" />
+
+</instant-run>

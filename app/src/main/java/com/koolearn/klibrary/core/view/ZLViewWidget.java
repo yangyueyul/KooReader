@@ -12,4 +12,6 @@ public interface ZLViewWidget {
 
 	void setScreenBrightness(int percent);
 	int getScreenBrightness();
+
+	void jumpRepaint();
 }
